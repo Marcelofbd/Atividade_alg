@@ -2,6 +2,8 @@ n = int(input("Digite um número inteiro maior ou igual a 50: "))
 h=0
 s=0
 p=0
+c=0
+pot=1
 n_max=n
 
 while n > 1:
@@ -13,7 +15,6 @@ while n > 1:
         h -= (n*2-1)/n
         s += n/(n*n)
     n -= 1
-c, pot = 0, 1
 
 while True:
     
